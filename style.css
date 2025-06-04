@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ffe4e1, #fff0f5);
+  color: #8b0000;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero {
+  background: url('https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-purple-concise-background-hd-image_5494.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  padding: 100px 20px;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.carousel {
+  margin: 50px auto;
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.carousel-container {
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  font-size: 1.2em;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  display: block;
+}
+
+/* Foto entre frases e botões */
+.photo-container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.romantic-photo {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.romantic-photo:hover {
+  transform: scale(1.05);
+}
+
+.carousel-buttons {
+  margin-top: 20px;
+}
+
+.carousel-buttons button {
+  background: #d826d8;
+  color: rgb(247, 244, 244);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.carousel-buttons button:hover {
+  background: #ff1493;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 1em;
+  color: #b22222;
+}
